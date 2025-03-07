@@ -1,10 +1,10 @@
-# PlaneNet
+# ESMNet
 
 ###### *PyTorch implementation of EAAI paper: "Stereo Matching on Epipolar Plane Image for Light Field Depth Estimation via Oriented Structurer"*.
 
 [Paper]([Wait])
 #### Requirements
-
+et
 - python 3.6
 - pytorch 1.8.0
 - ubuntu 18.04
