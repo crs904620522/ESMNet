@@ -108,6 +108,6 @@ class Trainer(BaseTrainer):
         prob_label = gauss /  gauss.sum(-1).reshape(B1*B2,H,W,1)
         loss_align = self.criterion(cv_res.reshape(B1*B2,-1),prob_label.reshape(B1*B2,-1)).mean() + self.criterion(epi_res.reshape(B1*B2,-1),prob_label.reshape(B1*B2,-1)).mean()
 
-        total_loss = 0.5*loss_mae + 0.5*loss_align
+        total_loss = loss_mae + 0.5*loss_align
 
         return total_loss
