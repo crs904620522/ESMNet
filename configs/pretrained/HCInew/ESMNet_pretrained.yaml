@@ -1,0 +1,9 @@
+inherit_from: configs/HCInew/ESMNet.yaml
+GPU_ID: '1'
+generation:
+  generation_dir: "./out/ESMNet/HCInew/generation"
+  model_file: 'model_best.pt'
+  input_size: 512
+  image_batch_size: 1
+  transform: False
+  name:  ['backgammon', 'dots', 'pyramids', 'stripes', 'dino','boxes', 'sideboard', 'cotton', 'bedroom', 'bicycle','herbs', 'origami']
