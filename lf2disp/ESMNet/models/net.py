@@ -97,7 +97,6 @@ class EPIFeatureExtraction(nn.Module):
             padding = [(1,1,1),(0,0,0)]
             spp_kernel_size = (3,3,3)
             spp_padding = [(1,1,1),(2,2,2),(4,4,4)]
-        # 特征提取
         self.res1 = ResidualBlock3D(inchannel=in_channels, outchannel=16, kernel_size=kernel_size,
                                   padding=padding)
         self.res2 = ResidualBlock3D(inchannel=16, outchannel=32, kernel_size=kernel_size,
