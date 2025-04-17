@@ -28,8 +28,7 @@ Light Field Dataset: We use [HCI 4D Light Field Dataset](https://lightfield-anal
 
 ## ESMNet
 
-##### Model weights: 
-Waiting
+##### Model weights(https://drive.google.com/drive/folders/1PS0S5oX7ylb3ONV8wxxAyDLZj2SvxWoJ?usp=sharing).
 
 ##### To train, run:
 
