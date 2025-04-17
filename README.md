@@ -46,5 +46,13 @@ python generate.py --config configs/pretrained/HCInew/ESMNet_pretrained.yaml
 
 **If you find our code or paper useful, please consider citing:**
 ```
-None
+@article{chen2025stereo,
+  title={Stereo matching on epipolar plane image for light field depth estimation via oriented structure},
+  author={Chen, Rongshan and Sheng, Hao and Cong, Ruixuan and Yang, Da and Cui, Zhenglong and Wang, Sizhe and Ke, Wei},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={151},
+  pages={110608},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
